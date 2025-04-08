@@ -15,8 +15,8 @@ jobs:
         uses: "peter-evans/create-or-update-comment@v4"
         with:
           issue-number: '${{ github.event.issue.number}}'
-          body: 
-            Hello, we wil get to you shortly
+          body: |
+            Hello, we will get to you shortly
             Have a nice day
           reactions: '+1'
           
